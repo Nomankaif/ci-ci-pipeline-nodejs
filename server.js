@@ -7,7 +7,7 @@ app.get("/health",(req,res)=>{
 res.send("hello")
 })
 
-app.get("/health/noman",()=>{
+app.get("/health/noman",(req,res)=>{
     res.send("hello noman")
 
 })
