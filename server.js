@@ -7,6 +7,11 @@ app.get("/health",(req,res)=>{
 res.send("hello")
 })
 
+app.get("/health/noman",()=>{
+    res.send("hello noman")
+
+})
+
 app.listen(port,()=>{
     console.log("app is running")
 })
