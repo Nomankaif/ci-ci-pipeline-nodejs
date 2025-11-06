@@ -12,6 +12,10 @@ app.get("/health/noman",(req,res)=>{
 
 })
 
+app.get("/test",(req,res)=>{
+    res.send("let test");
+})
+
 app.listen(port,()=>{
     console.log("app is running")
 })
